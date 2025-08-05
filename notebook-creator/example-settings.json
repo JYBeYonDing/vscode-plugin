@@ -1,0 +1,17 @@
+{
+  "// 示例配置文件 - 复制到你的VSCode settings.json中": "",
+  
+  "// macOS 示例": "",
+  "notebookCreator.notebookDirectory": "/Users/你的用户名/Documents/notes",
+  
+  "// Windows 示例": "",
+  "// notebookCreator.notebookDirectory": "C:\\Users\\你的用户名\\Documents\\notes",
+  
+  "// Linux 示例": "",
+  "// notebookCreator.notebookDirectory": "/home/你的用户名/Documents/notes",
+  
+  "// 其他可能的路径示例": "",
+  "// notebookCreator.notebookDirectory": "/Users/你的用户名/Dropbox/notes",
+  "// notebookCreator.notebookDirectory": "/Users/你的用户名/iCloud Drive/notes",
+  "// notebookCreator.notebookDirectory": "/Users/你的用户名/OneDrive/notes"
+}

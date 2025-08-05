@@ -1,0 +1,46 @@
+{
+  "name": "notebook-creator",
+  "displayName": "Notebook Creator",
+  "description": "快速创建带时间戳的markdown笔记文件",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "notebook-creator.dailyNote",
+        "title": "DailyNote"
+      },
+      {
+        "command": "notebook-creator.weeklyNote",
+        "title": "WeeklyNote"
+      }
+    ],
+    "configuration": {
+      "title": "Notebook Creator",
+      "properties": {
+        "notebookCreator.notebookDirectory": {
+          "type": "string",
+          "default": "",
+          "description": "笔记文件存储目录的绝对路径"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  }
+}
